@@ -1,0 +1,139 @@
+*{
+    margin: 0em;
+    padding: 0em;
+    font-size: 1.05em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+}
+
+section{
+    border-bottom: 1px solid #666;
+    padding: 2em;
+}
+
+section:last-of-type{
+    border-bottom: none;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+    padding: 1em 0;
+}
+
+p{
+    margin: 0;
+    padding: 1em 0;
+}
+
+.btn{
+    display: inline-block;
+    padding: .5em 1.5em;
+    margin: .5em;
+    text-decoration: none;
+    border: 2px solid black;
+    border-color: #666;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.small-btn{
+    display: inline-block;
+    padding: .2em .5em;
+    margin: .2em;
+    text-decoration: none;
+    border: 1px solid black;
+    border-color: #666;
+    color: rgb(5, 5, 5);
+    cursor: pointer;
+    font-size: .7em;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#home{
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    clear: both;
+}
+
+#home #notes{
+    text-align: center;
+    color: black;
+    font-family: 'Century Gothic';
+    font-weight: 1000;
+    font-size: 1.2em;
+    letter-spacing: 0.2em;
+    line-height: 2;
+    padding: 10em 3em;
+}
+
+#loginButton{
+    border: none;
+    margin: 0.5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background-color: orange;
+    color: rgb(5, 252, 231);
+}
+
+#loginButton:hover{
+    color: #333;
+    padding: 0.7em 1.3em;
+}
+
+#main-view{
+    right: 0;
+    position: relative;
+}
+
+.wide-main-view{
+    width: 100%;
+}
+
+.narrow-main-view{
+    width: 100%;
+}
+
+@media(min-width: 900px){
+    #home #quote{
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+
+    #loginButton{
+        margin: 7em;
+    }
+
+    .narrow-main-view{
+        margin-left: 25%;
+        width: 75%;
+    }
+    
+    .wide-main-view{
+        margin-left: 5%;
+        width: 95%;
+    }
+}

@@ -1,0 +1,31 @@
+.form{
+    margin: .5em;
+    text-align: center;
+}
+
+.form .title{
+    font-weight: 300;
+    letter-spacing: .05em;
+    font-size: 1.5em;
+    text-align: justify;
+    color: black;
+}
+
+.form div{
+    text-align: center;
+    margin: 1em;
+}
+
+.form div label{
+    display: block;
+    font-size: .6em;
+    margin: 0em 1em;
+    text-align: justify;
+    color: lightgray;
+}
+
+.form div input{
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    padding: .5em;
+}

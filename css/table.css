@@ -1,0 +1,73 @@
+.table {
+ width: 98%;
+ margin-left: 1%;
+ overflow: scroll;
+ border-collapse: collapse;
+ text-align: center;
+}
+
+.table tr.header {
+  background-color: lightgray;
+}
+
+.table tr.content{
+  background-color: white;
+  position: relative;
+}
+
+.table tr.content:hover{
+  background-color: orange;
+}
+
+.table tr th{
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+.table tr td {
+ text-transform: capitalize;
+ font-size: .7em;
+ overflow-y: scroll;
+}
+
+.table td:hover {
+ cursor: pointer;
+}
+
+.table input{
+  width: 80%;
+  height: 30px;
+}
+
+.table img{
+  width: 20px;
+}
+
+.table a:visited{
+  color: black;
+}
+
+td a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 1em;
+}
+
+td a:hover{
+  background-color: purple;
+  color: white;
+}
+
+.table thead{
+  text-align: center;
+  border-bottom: 2px solid black;
+  display: block;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  padding: .0em 1em;
+  margin: 1em;
+}

@@ -1,0 +1,141 @@
+.card{
+    display: block;
+    border: 2px solid black;
+    margin: 2em 1em;
+    border-radius: 10px;
+    background-color: rgba(red, green, blue, 0.8);
+    color: black;
+}
+
+.card-title{
+    text-align: center;
+    padding: 0em;
+}
+
+.card-title img{
+    width: 100%;
+    height: 350px;
+    border-bottom: 2px solid gray;
+    border-radius: 10px;
+}
+
+.card-title .title{
+    margin: .5em;
+    padding: .2em;
+    text-align: center;
+    border-bottom: 2px solid #333;
+    font-size: 1em;
+}
+
+.card-toggle{
+    left: 0;
+    top: 0;
+}
+
+.card-content{
+    margin: .3em;
+    padding: .1em;
+    text-align: center;
+}
+
+.row{
+    border-bottom: 1px solid #666666;
+    margin: .5em;
+}
+
+.row:last-of-type{
+    border-bottom: none;
+}
+
+.cell{
+    display: block;
+    margin: .5em;
+    padding: 1em;
+    font-size: .6em;
+    text-align: center;
+}
+
+.cell-label{
+    padding: .1em;
+    text-transform: uppercase;
+}
+
+.cell-data{
+    margin: .5em, 0em;
+    padding: .5em 0em;
+    border: none;
+    background-color: transparent;  
+    color: black;  
+    text-align: center;
+}
+
+.cell-data option{
+    font-size: 1em;
+    width: 100%;
+}
+
+.cell-data:hover, .cell-data:focus{
+    background-color: rgba(red, green, blue, 0.8);
+    border-bottom: 2px solid black;
+}
+
+#notification-block{
+    top: 0;
+    right: 0;
+    max-width: 50%;
+    position: fixed;
+}
+
+.options{
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 1px solid gray;
+    vertical-align: top;
+    margin: 0em 1em;
+    font-size: .7em;
+    padding: .1em;
+}
+
+.option{
+    margin: .2em;
+    padding: .1em;
+    cursor: pointer;
+    color: white;
+    background-color: #333;
+}
+
+.options img{
+    width: 5px;
+    height: 5px;
+}
+
+@media(min-width: 700px){
+    .card{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .cell{
+        text-align: left;
+    }
+
+    .row .cell{
+        display: inline-block;
+        margin: .5em;
+    }
+
+    .cell-label{
+        padding: .1em;
+        text-transform: uppercase;
+    }
+    
+    .cell-data{
+        margin: .5em;
+        padding: 0em .5em;
+        border: none;
+        background-color: transparent;  
+        color: black;  
+    }
+}

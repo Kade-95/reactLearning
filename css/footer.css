@@ -1,0 +1,9 @@
+footer{
+    margin-top: 5em;
+    border-top: 1px solid lightgray;
+    height: 100px;
+    bottom: 0;
+    background-color: transparent;
+    color: black;
+    position: relative;
+}
